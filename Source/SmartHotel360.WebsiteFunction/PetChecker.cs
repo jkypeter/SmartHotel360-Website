@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 namespace PetCheckerFunction
 {
     public static class PetChecker
-    {
+    {//
         [FunctionName("PetChecker")]
         public static async Task RunPetChecker(
             [CosmosDBTrigger("pets", "checks", ConnectionStringSetting = "constr",
